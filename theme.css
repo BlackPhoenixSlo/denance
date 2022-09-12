@@ -11,7 +11,17 @@ body {
   font-family: "Spartan, sans-serif";
   text-align: center;
   background: white;
+  overflow-x: hidden; 
+
 }
+html,body
+   {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+
+    }
 
 .hero-bg {
   position: absolute;
@@ -4005,6 +4015,7 @@ em {
   z-index: 30;
   width: 100%;
   padding: 50px 40px 40px;
+  margin: 0 auto;
   border-top-left-radius: 23px;
   border-bottom-left-radius: 23px;
   background-color: #0d1216;
