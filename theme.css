@@ -3794,6 +3794,8 @@ em {
 .countdown-page__h2.invert.small-margin {
   margin-top: 20px;
   margin-bottom: 20px;
+  right: 20px;
+
 }
 
 .countdown-page__h2.invert.no-mergin {
@@ -6206,4 +6208,7 @@ a{
 .buy-btn{
   display: flex;
   height: 30px;
+}
+img{
+  border-radius: 50%;
 }
