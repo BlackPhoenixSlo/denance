@@ -6,20 +6,19 @@
 
 }
 body {
+  position: relative;
   height: 100vh;
-  width: 100%;
   font-family: "Spartan, sans-serif";
   text-align: center;
   background: white;
-  overflow-x: hidden; 
+  width: 100vw;
+
 
 }
 html,body
    {
-        width: 100%;
-        margin: 0px;
-        padding: 0px;
-        overflow-x: hidden; 
+
+    overflow-x: hidden; 
 
     }
 
@@ -3473,9 +3472,9 @@ em {
 .html-embed-3 {
   position: absolute;
   left: auto;
-  top: auto;
+  top: -300px;
   right: -180px;
-  bottom: 15vh;
+  bottom: 3vh;
   z-index: 30;
   display: -webkit-box;
   display: -webkit-flex;
@@ -3495,7 +3494,7 @@ em {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  color: #fff;
+  color: #000;
 }
 
 .html-embed-3.black {
@@ -3866,7 +3865,7 @@ em {
 .countdown-page__btn {
   position: relative;
   z-index: 15;
-  height: 50px;
+  height: 3git0px;
   margin-bottom: 0px;
   padding-top: 16px;
   padding-right: 36px;
@@ -4573,6 +4572,29 @@ em {
 }
 
 @media screen and (max-width: 991px) {
+  .rotate {
+
+    transform: rotate(-90deg);
+  
+  
+    /* Legacy vendor prefixes that you probably don't need... */
+  
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+  
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+  
+    /* IE */
+    -ms-transform: rotate(-90deg);
+  
+    /* Opera */
+    -o-transform: rotate(-90deg);
+  
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  
+  }
   h2 {
     font-size: 28px;
     line-height: 34px;
@@ -4834,7 +4856,7 @@ em {
 
   .html-embed-3 {
     right: -175px;
-    bottom: 10vh;
+    top: -400px;
     width: 350px;
     -webkit-box-pack: end;
     -webkit-justify-content: flex-end;
@@ -4881,6 +4903,29 @@ em {
 }
 
 @media screen and (max-width: 767px) {
+  .rotate {
+
+    transform: rotate(-90deg);
+  
+  
+    /* Legacy vendor prefixes that you probably don't need... */
+  
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+  
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+  
+    /* IE */
+    -ms-transform: rotate(-90deg);
+  
+    /* Opera */
+    -o-transform: rotate(-90deg);
+  
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  
+  }
   h2 {
     font-size: 21px;
     line-height: 29px;
@@ -5429,9 +5474,10 @@ em {
   }
 
   .html-embed-3 {
-    top: auto;
+    top: -200px;
     right: -110px;
-    bottom: 40px;
+
+    bottom: 0;
     width: 220px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -5600,6 +5646,29 @@ em {
 }
 
 @media screen and (max-width: 479px) {
+  .rotate {
+
+    transform: rotate(-90deg);
+  
+  
+    /* Legacy vendor prefixes that you probably don't need... */
+  
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+  
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+  
+    /* IE */
+    -ms-transform: rotate(-90deg);
+  
+    /* Opera */
+    -o-transform: rotate(-90deg);
+  
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  
+  }
   
   h2 {
     text-align: center;
@@ -5935,8 +6004,11 @@ em {
   }
 
   .html-embed-3 {
+    top: -200px;
     right: -25vw;
     width: 50vw;
+    bottom: 2vh;
+
   }
 
   .countdown-dot {
@@ -5976,13 +6048,7 @@ em {
     margin-left: 12px;
   }
 
-  .text-block-4 {
-    font-size: 40px;
-  }
 
-  .text-block-4.glow {
-    font-size: 40px;
-  }
 
   .mobile-countdown__wrapper {
     padding-top: 36px;
@@ -6122,4 +6188,21 @@ em {
 .outer{
   position: relative;
   width: 100%;
+}
+.img-responsive1{
+  height: 50%;
+  width: 50;
+}
+
+#Secure-your-early-access{
+  transition-timing-function: ease-in-out;
+  translate: transform 200ms ease;
+}
+
+a{
+  text-decoration:none;
+}
+
+.buy-btn{
+  display: flex;
 }
