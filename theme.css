@@ -6052,6 +6052,7 @@ em {
     padding-right: 10px;
     padding-left: 10px;
     grid-auto-rows: 0.5fr;
+    margin-bottom: -100px;
   }
 
   .hero__black__container.top {
