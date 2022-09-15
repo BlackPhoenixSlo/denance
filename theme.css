@@ -4913,6 +4913,12 @@ em {
 }
 
 @media screen and (max-width: 767px) {
+  .phone{
+    display:block;
+  }
+  .comp{
+    display:none;
+  }
   .img-responsive2{
     height: 80%;
     margin-top: auto;
@@ -5664,6 +5670,12 @@ em {
 }
 
 @media screen and (max-width: 479px) {
+  .phone{
+    display:block;
+  }
+  .comp{
+    display:none;
+  }
   .img-responsive1{
     top: 400px;
   }
@@ -6319,3 +6331,10 @@ margin: auto;
   content: "\2796";
   /* Unicode character for "minus" sign (-) */
 }
+.phone{
+  display:none;
+}
+.comp{
+  display:block;
+}
+
