@@ -14,6 +14,7 @@ body {
   width: 100vw;
 
 
+
 }
 html,body
    {
@@ -4574,9 +4575,16 @@ em {
 }
 
 @media screen and (max-width: 991px) {
+
+  .img-responsive2{
+    width: 80%;
+  }
+  
   .rotate {
 
     transform: rotate(-90deg);
+
+    
   
   
     /* Legacy vendor prefixes that you probably don't need... */
@@ -4905,6 +4913,14 @@ em {
 }
 
 @media screen and (max-width: 767px) {
+  .img-responsive2{
+    height: 80%;
+    margin-top: auto;
+  }
+  .div-block-67{
+    height: 80%;
+  }
+  
   .rotate {
 
     transform: rotate(-90deg);
@@ -5497,7 +5513,7 @@ em {
   }
 
   .hero__black__container.top {
-    margin-bottom: 34px;
+    margin-bottom: 4px;
   }
 
   .hero__content {
@@ -5648,6 +5664,13 @@ em {
 }
 
 @media screen and (max-width: 479px) {
+  .img-responsive1{
+    top: 400px;
+  }
+  .hero__black__container{
+    height: 300px;
+    margin-top: -50px;
+  }
   .rotate {
 
     transform: rotate(-90deg);
@@ -6032,7 +6055,7 @@ em {
   }
 
   .hero__black__container.top {
-    margin-bottom: 58px;
+    margin-bottom: 8px;
   }
 
   .div-block-67 {
@@ -6177,7 +6200,7 @@ em {
 
 
 .margin_top {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .margin_left {
@@ -6193,7 +6216,10 @@ em {
 }
 .img-responsive1{
   height: 50%;
-  width: 50;
+}
+
+.img-responsive2{
+  height: 100%;
 }
 
 #Secure-your-early-access{
@@ -6209,6 +6235,86 @@ a{
   display: flex;
   height: 30px;
 }
-img{
-  border-radius: 50%;
+
+.absolute{
+  position: fixed;
+    z-index: 999;
+}
+
+
+/* HORIZONTAL SCROLL */
+.scroll-container{
+  overflow: auto;
+  white-space: nowrap;
+  padding: 5px 70px 5px 20px;
+  background: transparent;
+  height: 30vh;
+  border-radius:15px;
+}
+
+.gridscroll{
+  display:inline-block;
+}
+
+.gridscroll img {
+  margin-right:22px;
+  height:30vh;
+}
+
+.faq-heading{
+  border-bottom: #777;
+  padding: 20px 60px;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.hr-line{
+width: 60%;
+margin: auto;
+
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+  /* background-color: #eee; */
+  color: #444;
+  cursor: pointer;
+  padding: 30px 20px;
+  width: 60%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: auto;
+}
+.faq-body{
+  margin: auto;
+  /* text-align: center; */
+ width: 50%; 
+ padding: auto;
+ 
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+  background-color: #F9F9F9;
+}
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+  padding: 0 18px;
+  background-color: white;
+  display: block;
+  overflow: hidden;
+}
+.faq-page:after {
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
 }
