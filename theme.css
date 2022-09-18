@@ -4913,10 +4913,10 @@ em {
 }
 
 @media screen and (max-width: 767px) {
-  .phone{
+  #phone{
     display:block;
   }
-  .comp{
+  #comp{
     display:none;
   }
   .img-responsive2{
@@ -5670,10 +5670,10 @@ em {
 }
 
 @media screen and (max-width: 479px) {
-  .phone{
+  #phone{
     display:block;
   }
-  .comp{
+  #comp{
     display:none;
   }
   .img-responsive1{
@@ -6281,5 +6281,13 @@ a{
  flex-direction: row;
  justify-content: center;
 
+}
+@media screen and (min-width: 767px) {
+#phone{
+  display: none;
+}
+#comp{
+  display: block;
+}
 }
 
