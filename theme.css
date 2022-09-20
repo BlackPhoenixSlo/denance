@@ -4926,6 +4926,9 @@ em {
   .div-block-67{
     height: 80%;
   }
+  .c{
+    max-width: 380px;
+  }
   
   .rotate {
 
@@ -5670,6 +5673,9 @@ em {
 }
 
 @media screen and (max-width: 479px) {
+  .c{
+    max-width: 380px;
+  }
   #phone{
     display:block;
   }
@@ -6288,6 +6294,10 @@ a{
 }
 #comp{
   display: block;
+}
+
+.c{
+  min-width: 380px;
 }
 }
 
