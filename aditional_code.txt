@@ -1,0 +1,5 @@
+<a href="#" target="_blank"
+                  class="link">Terms
+                  and Conditions</a><a href="#" target="_blank" class="link">Privacy Policy</a><a
+                  href="#" target="_blank" class="link">Manage Subscription</a><a
+                  href="#" target="_blank" class="link">Contact Us</a>
